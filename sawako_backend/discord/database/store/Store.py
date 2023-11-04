@@ -1,6 +1,6 @@
 from django.db import models
 
-from discord.models.Guild import Guild
+from discord.database.guild.Guild import Guild
 
 
 class Store(models.Model):
@@ -11,3 +11,6 @@ class Store(models.Model):
     name = models.CharField(max_length=10)
     description = models.CharField(max_length=20)
     price = models.IntegerField()
+
+    class Meta:
+        app_label = 'discord'

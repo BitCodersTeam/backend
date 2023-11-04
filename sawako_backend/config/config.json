@@ -1,0 +1,223 @@
+{
+    "default_settings": {
+        "database": {
+            "version": "0.0.0",
+            "save_where_leave": false,
+            "can_write": {
+                "admins": false,
+                "roles": []
+            }
+        },
+        "on_join": {
+            "give_roles": {
+                "flag": false,
+                "roles_ids": []
+            },
+            "send_mess": {
+                "flag": false,
+                "channel": 0,
+                "text": "",
+                "send_embed": {
+                    "flag": false,
+                    "embed": {
+                        "title": "",
+                        "description": "",
+                        "url": "",
+                        "color": 0,
+                        "timestamp": true,
+                        "image_url": "",
+                        "thumbnail_url": "",
+                        "fields": [],
+                        "footer": {
+                            "text": "",
+                            "icon_url": ""
+                        },
+                        "author": {
+                            "name": "",
+                            "url": ""
+                        }
+                    }
+                }
+            }
+        },
+        "on_remove": {
+            "send_mess": {
+                "flag": false,
+                "channel": 0,
+                "text": "",
+                "send_embed": {
+                    "flag": false,
+                    "embed": {
+                        "title": "",
+                        "description": "",
+                        "url": "",
+                        "color": 0,
+                        "timestamp": true,
+                        "image_url": "",
+                        "thumbnail_url": "",
+                        "fields": [],
+                        "footer": {
+                            "text": "",
+                            "icon_url": ""
+                        },
+                        "author": {
+                            "name": "",
+                            "url": ""
+                        }
+                    }
+                }
+            }
+        },
+        "logging": {
+            "send_mess": {
+                "flag": false,
+                "channel": 0
+            }
+        },
+        "congratulation": {
+            "flag": false,
+            "give_roles": {
+                "flag": false,
+                "roles_ids": []
+            },
+            "send_mess": {
+                "flag": false,
+                "channel": 0,
+                "text": "",
+                "send_embed": {
+                    "flag": false,
+                    "embed": {
+                        "title": "",
+                        "description": "",
+                        "url": "",
+                        "color": 0,
+                        "timestamp": true,
+                        "image_url": "",
+                        "thumbnail_url": "",
+                        "fields": [],
+                        "footer": {
+                            "text": "",
+                            "icon_url": ""
+                        },
+                        "author": {
+                            "name": "",
+                            "url": ""
+                        }
+                    }
+                }
+            }
+        },
+        "automod": {
+            "anticaps": {
+                "flag": false,
+                "channel_is_on": [],
+                "channel_is_off": [],
+                "ignore_admins": false,
+                "ignored_roles": [],
+                "give_roles": {
+                    "flag": false,
+                    "roles_ids": []
+                },
+                "send_mess": {
+                    "flag": false,
+                    "channel": 0,
+                    "text": "",
+                    "send_embed": {
+                        "flag": false,
+                        "embed": {
+                            "title": "",
+                            "description": "",
+                            "url": "",
+                            "color": 0,
+                            "timestamp": true,
+                            "image_url": "",
+                            "thumbnail_url": "",
+                            "fields": [],
+                            "footer": {
+                                "text": "",
+                                "icon_url": ""
+                            },
+                            "author": {
+                                "name": "",
+                                "url": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "antispam": {
+                "flag": false,
+                "channel_is_on": [],
+                "channel_is_off": [],
+                "ignored_roles": [],
+                "give_roles": {
+                    "flag": false,
+                    "roles_ids": []
+                },
+                "send_mess": {
+                    "flag": false,
+                    "channel": 0,
+                    "text": "",
+                    "send_embed": {
+                        "flag": false,
+                        "embed": {
+                            "title": "",
+                            "description": "",
+                            "url": "",
+                            "color": 0,
+                            "timestamp": true,
+                            "image_url": "",
+                            "thumbnail_url": "",
+                            "fields": [],
+                            "footer": {
+                                "text": "",
+                                "icon_url": ""
+                            },
+                            "author": {
+                                "name": "",
+                                "url": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "antiadvertising": {
+                "flag": false,
+                "channel_is_on": [],
+                "channel_is_off": [],
+                "ignored_roles": [],
+                "allowed_domains": [],
+                "give_roles": {
+                    "flag": false,
+                    "roles_ids": []
+                },
+                "send_mess": {
+                    "flag": false,
+                    "channel": 0,
+                    "text": "",
+                    "send_embed": {
+                        "flag": false,
+                        "embed": {
+                            "title": "",
+                            "description": "",
+                            "url": "",
+                            "color": 0,
+                            "timestamp": true,
+                            "image_url": "",
+                            "thumbnail_url": "",
+                            "fields": [],
+                            "footer": {
+                                "text": "",
+                                "icon_url": ""
+                            },
+                            "author": {
+                                "name": "",
+                                "url": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
