@@ -1,7 +1,10 @@
 
 class ConfigController:
-    def update_config(self):
+
+    @staticmethod
+    def update_config():
         pass
 
+    @staticmethod
     def update_settings(self):
         pass
